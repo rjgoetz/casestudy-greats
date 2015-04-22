@@ -1,0 +1,25 @@
+// _css-module.scss
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.css-module {
+	margin-bottom: 6em;
+	&> h2 {
+		padding: .5em;
+		font-family: sans-serif;
+		background: $grey-lighter;
+	}
+	.sample-image {
+	  display: block;
+	  border: 1px solid $grey-lighter;
+	}
+
+	&> *:last-child {
+		border: 1px solid $grey-lighter;
+	}
+}

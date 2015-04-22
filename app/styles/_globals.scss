@@ -1,0 +1,19 @@
+// _globals.scss
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $white;
+  color: $black;
+  max-width: 960 / 16 * 1em;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
