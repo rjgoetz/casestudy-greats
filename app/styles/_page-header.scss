@@ -1,0 +1,94 @@
+// _page-header.scss
+
+/*.page-header {
+	nav {
+		aside:first-child {
+			float: left;
+			}
+			&:last-of-type {
+			float: right;
+		}
+		ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		display: inline-block;
+		float: left;
+		border: 1px solid red;
+		}
+		&> ul {
+			display: block;
+		}
+		.main-logo img {
+			width: 118 / 16 * 1em;			
+			height: auto;
+			float: left;
+		}
+		h1 {
+			@include visuallyhidden;
+		}
+		li {
+			float: left;
+		}
+	}
+	*/
+
+.page-header {
+	font-family: $font-stack-sans;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	a {
+		color: $grey-greats;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+			color: $black;
+		}
+	}
+	li {
+		float: left;
+	}
+}
+
+.nav-first-line {
+	div {
+		width: 28em;
+	}
+	aside:first-child {
+		float: left;
+	}
+	aside:last-of-type {
+		float: right;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		display: inline-block;
+	}
+}
+
+.main-logo {
+	width: 150px;
+	height: auto;
+	display: inline-block;
+}
+
+
+
+/*
+		div ul:first-child li {
+			border: 1px solid green;
+			padding-right: 2em;
+		}
+	}
+	a {
+		color: $grey-greats;
+		text-decoration: none;
+		text-transform: uppercase;
+		&:hover {
+			text-decoration: underline;
+			color: $black;
+		}
+	}
+}*/

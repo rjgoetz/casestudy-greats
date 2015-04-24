@@ -1,7 +1,9 @@
 // main.scss
 
 @import "variables";
+@import "mixins";
 @import "globals";
 
 // modules
 @import "css-module";
+@import "page-header";

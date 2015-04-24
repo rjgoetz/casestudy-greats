@@ -21,6 +21,8 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <script src="//use.typekit.net/jiw6gfy.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -34,21 +36,27 @@
       <img class="sample-image" src="modules/page-header.png" alt="Page Header">
 
       <!--Start .page-header-->
-      <header class="page-header">
-        <aside><a href="#">Log In</a></aside>
+      <header class="page-header">        
         <nav>
-          <div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
-            <h1><a href="#">Greats - Designer Quality Shoes and Sneakers for Men</a></h1>
-            <ul>
-              <li><a href="#">Subscribe</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
+          <div class="nav-first-line">
+            <aside><a href="#">Log In</a></aside>
+            <div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+              <div class="main-logo">
+                <h1><a href="#">Greats - Designer Quality Shoes and Sneakers for Men</a></h1>
+                <img src="images/logo.png" alt="Greats Logo">
+              </div>
+              <ul>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <aside><a href="">Cart (0)</a></aside>
           </div>
-          <ul>
+          <ul class="nav-second-line">
             <li><a href="#">Bab</a></li>
             <li><a href="#">Royale</a></li>
             <li><a href="#">Royale Chukka</a></li>
@@ -60,7 +68,6 @@
             <li><a href="#">Hirsch</a></li>
           </ul>
         </nav>
-        <aside><a href="">Cart (0)</a></aside>
       </header>
       <!--End .page-header-->
     </div>
@@ -176,7 +183,11 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="/bower_components/eventie/eventie.js"></script>
+    <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
+    <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
