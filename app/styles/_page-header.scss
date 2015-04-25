@@ -1,42 +1,13 @@
 // _page-header.scss
 
-/*.page-header {
-	nav {
-		aside:first-child {
-			float: left;
-			}
-			&:last-of-type {
-			float: right;
-		}
-		ul {
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
-		display: inline-block;
-		float: left;
-		border: 1px solid red;
-		}
-		&> ul {
-			display: block;
-		}
-		.main-logo img {
-			width: 118 / 16 * 1em;			
-			height: auto;
-			float: left;
-		}
-		h1 {
-			@include visuallyhidden;
-		}
-		li {
-			float: left;
-		}
-	}
-	*/
-
 .page-header {
-	font-family: $font-stack-sans;
-	font-size: 1.4em;
+	min-width: 100%;
+	font: 100 1.23em/1 $font-stack-sans;
+	letter-spacing: 1px;
 	text-transform: uppercase;
+	nav {
+		padding: .5rem .5rem 2rem .5rem;
+	}
 	a {
 		color: $grey-greats;
 		text-decoration: none;
@@ -47,12 +18,24 @@
 	}
 	li {
 		float: left;
+		margin-right: 2rem;
 	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	@include clearfix;
 }
 
 .nav-first-line {
+	padding-bottom: .5rem;
 	div {
-		width: 28em;
+		display: inline-block;
+	}
+	aside {
+	  display: inline-block;
+		font-size: 1.4rem;
 	}
 	aside:first-child {
 		float: left;
@@ -61,34 +44,30 @@
 		float: right;
 	}
 	ul {
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
 		display: inline-block;
+		&:first-child {
+			padding-left: 11.7rem;
+		}
+		&:last-of-type {
+			margin-right: initial;
+			margin-left: 2rem;
+		}
 	}
 }
 
 .main-logo {
-	width: 150px;
-	height: auto;
 	display: inline-block;
+	a {
+		display: block;
+		width: 118 / 16 * 1rem;
+		height: 18.77 / 16 * 1rem;
+	}
+	h1 {
+		@include visuallyhidden;
+	}
 }
 
-
-
-/*
-		div ul:first-child li {
-			border: 1px solid green;
-			padding-right: 2em;
-		}
-	}
-	a {
-		color: $grey-greats;
-		text-decoration: none;
-		text-transform: uppercase;
-		&:hover {
-			text-decoration: underline;
-			color: $black;
-		}
-	}
-}*/
+.page-header .nav-second-line {
+	margin-left: 3.2rem;
+	@include clearfix;
+}
