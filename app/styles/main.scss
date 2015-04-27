@@ -2,8 +2,10 @@
 
 @import "variables";
 @import "mixins";
+@import "grid";
 @import "globals";
 
 // modules
 @import "css-module";
 @import "page-header";
+@import "product-gallery";

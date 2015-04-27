@@ -1,0 +1,33 @@
+// _grid.scss
+
+.col1-2 {
+  width: 50%;
+}
+
+.col1-3 {
+  width: 33.3333%;
+}
+
+.col1-4 {
+  width: 25%;
+}
+
+*.row {
+  &:after {
+    @include clearfix;
+  }
+  &:last-of-type {
+    max-width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid $grey-greats;
+    padding-bottom: 2em;
+  }
+}
+
+article[class*='col'] {
+  float: left;
+}
+
+article[class*='col']:last-of-type {
+  float: none;
+}
