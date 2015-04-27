@@ -13,21 +13,16 @@
 }
 
 *.row {
+  padding-top: 2em;
   &:after {
     @include clearfix;
   }
   &:last-of-type {
-    max-width: 50%;
-    margin: 0 auto;
-    border-bottom: 1px solid $grey-greats;
+    /*border-bottom: 1px solid $grey-greats;*/
     padding-bottom: 2em;
   }
 }
 
 article[class*='col'] {
   float: left;
-}
-
-article[class*='col']:last-of-type {
-  float: none;
 }

@@ -4,7 +4,7 @@
   color: $grey-greats;
   text-align: center;
   margin-top: 2em;
-  border: 1px solid red;
+  margin: 0 auto;
   &>h2 {
     @include visuallyhidden;
   }
@@ -20,28 +20,115 @@
   section {
     padding-top: 2em;
   }
+  .rosen1 {
+    width: 864 / 16 * 1em;
+    margin: 0 auto;
+    article {
+    height: 18em;
+    }
+    h3 {
+      position: relative;
+      top: 16em;
+    }
+  }
+  .rosen2 {
+    width: 432 / 16 * 1em;
+    margin: 0 auto;
+    article {
+    height: 18em;
+    float: none;
+    }
+    h3 {
+      position: relative;
+      top: 16em;
+    }
+  }
+  .wilson1 {
+    width: 800 / 16 * 1em;
+    margin: 0 auto;
+    article {
+    height: 16em;
+    }
+    h3 {
+      position: relative;
+      top: 14em;
+    }
+  }
+  .wilson2 {
+    width: 736 / 16 * 1em;
+    margin: 0 auto;
+    article {
+      height: 14em;
+    }
+    h3 {
+      position: relative;
+      top: 12em;
+    }
+  }
+  .wilson3 {
+    width: 368 / 16 * 1em;
+    margin: 0 auto;
+    article {
+      height: 14em;
+      float: none;
+    }
+    h3 {
+      position: relative;
+      top: 12em;
+    }
+  }
+  .bab1 {
+    width: 800 / 16 * 1em;
+    margin: 0 auto;
+    article {
+    height: 16em;
+    }
+    h3 {
+      position: relative;
+      top: 14em;
+    }
+  }
+  .bab2 {
+    width: 736 / 16 * 1em;
+    margin: 0 auto;
+    article {
+      height: 14em;
+    }
+    h3 {
+      position: relative;
+      top: 12em;
+    }
+  }
+}
+.hirsch {
+  width: 432 / 16 * 1em;
+  margin: 0 auto;
+  article {
+  height: 18em;
+  float: none;
+  }
+  h3 {
+    position: relative;
+    top: 16em;
+  }
 }
 
 .product-image {
   text-align: center;
-  height: 22em;
   h3 {
-    position: relative;
-    top: 18.5em;
-    font: 100 1em/1 $font-stack-sans;
+    font: 500 1em/1 $font-stack-sans;
     letter-spacing: 1px;
     color: $grey-greats;
     text-transform: uppercase;
   }
   img {
   z-index: -10;
-  max-height: 19em;
+  max-width: 95%;
   }
   a {
     position: absolute;
     top: 0;
     display: block;
     width: 100%;
-    height: 100%;
-  }
+    height: 100%;  }
 }
