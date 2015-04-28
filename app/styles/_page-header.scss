@@ -9,11 +9,11 @@
 		padding: .5rem .5rem 2rem .5rem;
 	}
 	a {
-		color: $grey-greats;
+		color: $grey-nav;
 		text-decoration: none;
 		&:hover {
 			text-decoration: underline;
-			color: $black;
+			color: $black-nav;
 		}
 	}
 	li {

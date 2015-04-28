@@ -12,14 +12,14 @@ html {
 	&> h2 {
 		padding: .5em;
 		font-family: sans-serif;
-		background: $grey-lighter;
+		background: $grey;
 	}
 	.sample-image {
 	  display: block;
-	  border: 1px solid $grey-lighter;
+	  border: 1px solid $grey;
 	}
 
 	&> *:last-child {
-		border: 1px solid $grey-lighter;
+		border: 1px solid $grey;
 	}
 }
