@@ -6,8 +6,10 @@
 }
 
 .refer-friend {
+  position: relative;
+  bottom: 1.75rem;
   background: url('../images/large_leather.jpg');
-  border: 3px solid $grey-headline-footer;
+  border: 3px solid #777;
   width: 483 / 16 * 1rem;
   margin: 0 auto;
   border-radius: 17px;
@@ -16,6 +18,7 @@
   font: 2.4em/1 $font-stack-sans;
   letter-spacing: 1px;
   padding: 1rem 1rem;
+  box-shadow: 4px 4px 4px #999;
   p {
     margin: 0 .3rem;
     display: inline-block;
@@ -30,7 +33,7 @@
   }
   a {
     -webkit-text-stroke: .0125em #aaa;
-    text-shadow: 2px 1px 0 #222;
+    text-shadow: 2px 1px 0 #444;
     text-decoration: none;
     color: white;
   }
