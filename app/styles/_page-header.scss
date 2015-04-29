@@ -1,6 +1,9 @@
 // _page-header.scss
 
 .page-header {
+	position: fixed;
+	top: 0;
+	background: $white;
 	min-width: 100%;
 	font: 500 1.23em/1 $font-stack-sans;
 	letter-spacing: 1px;
