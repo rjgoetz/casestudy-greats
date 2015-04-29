@@ -21,6 +21,8 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <link rel="stylesheet" href="/bower_components/owl-carousel2/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/bower_components/owl-carousel2/dist/assets/owl.theme.default.min.css">
     <script src="//use.typekit.net/jiw6gfy.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
   </head>
@@ -79,11 +81,28 @@
       <!--Start .carousel-->
       <section class="carousel">
         <h1>You can find great shoes in the Greats online store.</h1>
-        <article class="carousel-image">
-          <h2>The Luxurious Royale High Marries Old World Craft With a Modern Twist</h2>
-          <img src="images/Homepage_Hero_royale-high.jpg" alt="The Royale High by Greats">
-          <a href="#"></a>
-        </article>
+        <div class="owl-carousel">
+          <article class="item carousel-image">
+            <h2>The Luxurious Royale High Marries Old World Craft With a Modern Twist</h2>
+            <a href="#"><img src="images/Homepage_Hero_royale-high.jpg" alt="The Royale High by Greats"></a>
+          </article>
+          <article class="item carousel-image">
+            <h2>Greats + Orley</h2>
+            <a href="#"><img src="images/Orley_Hero.jpg" alt="Greats + Orley Fashion"></a>
+          </article>
+          <article class="item carousel-image">
+            <h2>Wooster Greats + Lardini</h2>
+            <a href="#"><img src="images/Homepage_Hero_Lardini.jpg" alt="Wooster Greats + Lardini"></a>
+          </article>
+          <article class="item carousel-image">
+            <h2>Redefining the Footwear Industry - Traditional vs Greats</h2>
+            <a href="#"><img src="images/Homepage_Hero_main.jpg" alt="Redefining the Footwear Industry Diagram"></a>
+          </article>
+          <article class="item carousel-image">
+            <h2>$7 Shipping or 2 Pair Free</h2>
+            <a href="#"><img src="images/Shipping_Hero_1.jpg" alt="Shipping promotion"></a>
+          </article>
+        </div>
       </section>
       <!--End .carousel-->
     </div>
@@ -227,6 +246,7 @@
     <script src="/bower_components/imagesloaded/imagesloaded.js"></script>
     <!-- endbower -->
     <script src="/bower_components/imagefill/js/jquery-imagefill.js"></script>
+    <script src="/bower_components/owl-carousel2/dist/owl.carousel.min.js"></script>
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->

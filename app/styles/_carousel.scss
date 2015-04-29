@@ -1,0 +1,11 @@
+// _carousel.scss
+
+.carousel {
+	h1, h2 {
+		@include visuallyhidden;
+	}
+	article {
+		width: 960 / 16 * 1em;
+		height: 300 / 16 * 1em;
+	}
+}

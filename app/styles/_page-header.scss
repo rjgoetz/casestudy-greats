@@ -1,15 +1,13 @@
 // _page-header.scss
 
 .page-header {
-	position: fixed;
-	top: 0;
+	width: 100%;
 	background: $white;
-	min-width: 100%;
-	font: 500 1.23em/1 $font-stack-sans;
+	font: 500 1.3em/1 $font-stack-sans;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	nav {
-		padding: .5rem .5rem 2rem .5rem;
+		padding: .5rem .5rem 1.75rem .5rem;
 	}
 	a {
 		color: $grey-nav;
@@ -37,8 +35,12 @@
 		display: inline-block;
 	}
 	aside {
-	  display: inline-block;
+	  	display: inline-block;
 		font-size: 1.4rem;
+		a:hover {
+			text-decoration: none;
+			color: $grey-lighter-nav;
+		}
 	}
 	aside:first-child {
 		float: left;
@@ -49,7 +51,7 @@
 	ul {
 		display: inline-block;
 		&:first-child {
-			padding-left: 11.7rem;
+			padding-left: 12.5rem;
 		}
 		&:last-of-type {
 			margin-right: initial;
@@ -64,7 +66,7 @@
 	a {
 		display: block;
 		width: 118 / 16 * 1rem;
-		height: 18.77 / 16 * 1rem;
+		height: 21 / 16 * 1rem;
 	}
 	h1 {
 		@include visuallyhidden;
