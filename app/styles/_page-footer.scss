@@ -1,0 +1,37 @@
+// _page-footer.scss
+
+.page-footer {
+  background: $grey-footer;
+  color: $grey-body-footer;
+}
+
+.refer-friend {
+  background: url('../images/large_leather.jpg');
+  border: 3px solid $grey-headline-footer;
+  width: 483 / 16 * 1rem;
+  margin: 0 auto;
+  border-radius: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  font: 2.4em/1 $font-stack-sans;
+  letter-spacing: 1px;
+  padding: 1rem 1rem;
+  p {
+    margin: 0 .3rem;
+    display: inline-block;
+    width: 65 / 30 * 1rem;
+    height: 56 / 30 * 1rem;
+    img {
+      vertical-align: bottom;
+    }
+    span {
+      @include visuallyhidden;
+    }
+  }
+  a {
+    -webkit-text-stroke: .0125em #aaa;
+    text-shadow: 2px 1px 0 #222;
+    text-decoration: none;
+    color: white;
+  }
+}
