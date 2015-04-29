@@ -12,6 +12,11 @@ body {
   color: $black;
   max-width: 960 / 16 * 1em;
   margin: 0 auto;
+  font-family: $font-stack-serif;
+}
+
+h2 {
+  font-family: $font-stack-sans;
 }
 
 img {
