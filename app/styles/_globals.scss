@@ -10,9 +10,13 @@ html {
 body {
   background: $white;
   color: $black;
+  font-family: $font-stack-serif;
+}
+
+.wrapper {
   max-width: 960 / 16 * 1em;
   margin: 0 auto;
-  font-family: $font-stack-serif;
+	margin-top: 91 / 16 * 1em;
 }
 
 h2 {

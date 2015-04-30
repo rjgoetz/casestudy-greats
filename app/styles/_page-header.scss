@@ -1,7 +1,9 @@
 // _page-header.scss
 
 .page-header {
-	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
 	background: $white;
 	font: 500 1.3em/1 $font-stack-sans;
 	letter-spacing: 1px;
