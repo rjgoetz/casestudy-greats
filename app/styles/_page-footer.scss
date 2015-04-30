@@ -19,7 +19,7 @@
   p {
     margin: 0;
     padding-bottom: 3.5rem;
-    color: $grey-paragraph;
+    color: $grey-body-footer;
     line-height: 1.7;
     text-align: center;
   }
@@ -109,7 +109,7 @@
 
 .social-media {
   float: left;
-  margin: 0 0 0 4.5em;
+  margin: 0 0 0 4.4em;
   padding: 0;
   font-size: 1.2em;
   li {
@@ -141,7 +141,7 @@
     margin-bottom: .75em;
   }
   a {
-    color: $grey-paragraph;
+    color: $grey-body-footer;
     &:hover {
       color: $grey-headline-footer;
     }

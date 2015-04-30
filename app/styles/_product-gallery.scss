@@ -3,8 +3,6 @@
 .product-gallery {
   color: $grey-headline;
   text-align: center;
-  margin-top: 2em;
-  margin: 0 auto;
   padding-bottom: 2.5em;
   &>h2 {
     @include visuallyhidden;
@@ -16,15 +14,14 @@
   }
   p {
     margin: .75em 0 1.75em 0;
-    font: .8em/1 $font-stack-serif;
-    color: $grey-subhead;
+    font: .75em/1 $font-stack-serif;
   }
   section {
     padding-top: 2em;
   }
   .rosen1 {
     width: 864 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
     height: 18em;
     }
@@ -35,7 +32,7 @@
   }
   .rosen2 {
     width: 432 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
     height: 18em;
     float: none;
@@ -47,7 +44,7 @@
   }
   .wilson1 {
     width: 800 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
     height: 16em;
     }
@@ -58,7 +55,7 @@
   }
   .wilson2 {
     width: 736 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
       height: 14em;
     }
@@ -69,7 +66,7 @@
   }
   .wilson3 {
     width: 368 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
       height: 14em;
       float: none;
@@ -81,7 +78,7 @@
   }
   .bab1 {
     width: 800 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
     height: 16em;
     }
@@ -92,7 +89,7 @@
   }
   .bab2 {
     width: 736 / 16 * 1em;
-    margin: 0 auto;
+    margin: auto;
     article {
       height: 14em;
     }
@@ -104,7 +101,7 @@
 }
 .hirsch {
   width: 432 / 16 * 1em;
-  margin: 0 auto;
+  margin: auto;
   article {
   height: 18em;
   float: none;
