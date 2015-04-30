@@ -14,4 +14,4 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     items: 5,
     autoWidth: true
-})
+});
