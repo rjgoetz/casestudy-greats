@@ -5,13 +5,12 @@ $('.product-image').imagefill();
 $('.carousel-image').imagefill();
 
 $(document).ready(function(){
-	$('.owl-carousel').owlCarousel();
-});
-
-$('.owl-carousel').owlCarousel({
-    autoplay:true,
-    autoplayHoverPause:true,
-    loop:true,
-    items: 5,
-    autoWidth: true
+	'use strict';
+	$('.owl-carousel').owlCarousel({
+	    autoplay:true,
+	    autoplayHoverPause:true,
+	    loop:true,
+	    items: 5,
+	    autoWidth: true
+	});
 });
