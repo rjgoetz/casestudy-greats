@@ -1,0 +1,37 @@
+// _join-email.scss
+
+.join-email {
+  float: left;
+  font: 100 1.5em/1.1 $font-stack-sans;
+  text-transform: uppercase;
+  @include clearfix;
+  h3 {
+    padding-bottom: .25em;
+    margin: 0;
+    font-weight: 500;
+    color: $grey-headline-footer;
+  }
+  span {
+    display: block;
+  }
+  p {
+    margin: 0;
+    float: left;
+    color: $grey-body-footer;
+    input {
+      border: none;
+    }
+  }
+  p:first-child input {
+    font: .65em/1 $font-stack-serif;
+    background: $grey-lighter-footer;
+    padding: 1.45em 2.65em 1.45em 1.45em;
+  }
+  p:nth-child(2) input {
+    font: .65em/1 $font-stack-sans;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #ccc;
+    padding: 1.47em 1.65em;
+  }
+}
