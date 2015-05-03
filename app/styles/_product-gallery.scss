@@ -2,22 +2,23 @@
 
 .product-gallery {
   color: $grey-headline;
-  text-align: center;
   padding-bottom: 2.5em;
   &>h2 {
     @include visuallyhidden;
   }
   h2 {
-    margin: 0 auto;
     font: 100 2em/1 $font-stack-sans;
     text-transform: uppercase;
     border-top: 1px solid $black;
     width: 432 / 16 * 1rem;
+    margin: 0 auto;
     padding-top: 1em;
+    text-align: center;
   }
   p {
     margin: .75em 0 1.75em 0;
     font: .75em/1 $font-stack-serif;
+    text-align: center;
   }
   section {
     padding-top: 2em;
@@ -30,79 +31,72 @@
     width: 864 / 16 * 1em;
     margin: auto;
     article {
-    height: 18em;
+    height: 18.5em;
     }
     h3 {
-      position: relative;
-      top: 16em;
+      bottom: 0;
     }
   }
   .rosen2 {
     width: 432 / 16 * 1em;
     margin: auto;
     article {
-    height: 18em;
+    height: 18.5em;
     float: none;
     }
     h3 {
-      position: relative;
-      top: 16em;
+      bottom: 0;
     }
   }
   .wilson1 {
     width: 800 / 16 * 1em;
     margin: auto;
     article {
-    height: 16em;
+    height: 17em;
     }
     h3 {
-      position: relative;
-      top: 14em;
+      bottom: 0;
     }
   }
   .wilson2 {
     width: 736 / 16 * 1em;
     margin: auto;
     article {
-      height: 14em;
+      height: 16em;
     }
     h3 {
-      position: relative;
-      top: 12em;
+      bottom: 0;
     }
   }
   .wilson3 {
     width: 368 / 16 * 1em;
     margin: auto;
     article {
-      height: 14em;
+      height: 16em;
       float: none;
     }
     h3 {
-      position: relative;
-      top: 12em;
+      bottom: 0;
     }
   }
   .bab1 {
     width: 800 / 16 * 1em;
     margin: auto;
     article {
-    height: 16em;
+    height: 17em;
     }
     h3 {
-      position: relative;
-      top: 14em;
+      bottom: 0;
     }
   }
   .bab2 {
     width: 736 / 16 * 1em;
     margin: auto;
     article {
-      height: 14em;
+      height: 16em;
     }
     h3 {
-      position: relative;
-      top: 12em;
+      bottom: 0;
     }
   }
 }
@@ -110,24 +104,28 @@
   width: 432 / 16 * 1em;
   margin: auto;
   article {
-  height: 18em;
+  height: 19em;
   float: none;
   }
   h3 {
-    position: relative;
-    top: 16em;
+    bottom: 0;
   }
 }
 
 .product-image {
-  text-align: center;
+  position: relative;
   h3 {
     font: 500 1em/1 $font-stack-sans;
     letter-spacing: 1px;
     color: $grey-headline;
     text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
   img {
+  position: absolute;
   z-index: -10;
   max-width: 95%;
   }
